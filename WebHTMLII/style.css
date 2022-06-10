@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+
+}
+
+body {
+    width: 80%;
+    background-color: rgb(218, 196, 196);
+    margin: auto;
+}
+
+header {
+    height: 120px;
+    width: 80%;
+    background-color: aquamarine;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    width: 30%;
+    background-color: burlywood;
+    height: 300px;
+    float: left;
+}
+
+ul{
+    list-style-type: none;
+    text-decoration: none;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    padding: 5px;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: blueviolet;
+    
+}
+
+h2{
+    margin-left: 30px;
+    text-decoration: underline;
+
+}
+
+article {
+    width: 80%;
+    background-color: darksalmon;
+    height: 300px;
+}
+
+footer {
+    background-color: honeydew;
+    height: 30px;
+    width: 80%;
+    text-align: center;
+}

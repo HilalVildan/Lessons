@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    color: aliceblue;
+}
+
+body {
+    background-color: aqua;
+}
+
+.container {
+    margin: auto;
+    width: 100%;
+    background-color: darkmagenta;
+
+}
+
+#life {
+    color: black;
+    margin: auto;
+    text-align: center;
+}
+
+#Person {
+    color: black;
+    text-align: center;
+    margin: auto;
+    letter-spacing: 10px;
+}
+
+.header {
+
+    margin: auto;
+    width: 80%;
+}
+
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    display: block;
+    /*inline elementi ortalamak icin böyle kullanilir*/
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(153, 205, 50, 0.304);
+
+}
+
+.info {
+    padding: 20px;
+    text-align: justify;
+}
+
+#footer {
+    text-align: right;
+    padding: 30px;
+    color: black;
+}
+
+#link {
+    text-decoration: none;
+    color: chartreuse;
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#link:hover {
+    background-color: blue;
+    font-size: 20px;
+    font-style: italic;
+}
