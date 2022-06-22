@@ -1,0 +1,174 @@
+body{
+	background-color: #f4f4f4;
+	color: #555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin:0;
+
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.button{
+	background-color: #333;
+	color: #fff;
+	padding: 10px 15px;
+	border:none;
+}
+
+.button:hover{
+	background: red;
+	color: #fff;
+
+}
+
+#main-header{
+	background-color: coral;
+	color: #fff;
+}
+
+#navbar{
+	background-color: #333;
+	color: #fff;
+}
+
+#navbar ul{
+	padding: 0;
+	list-style: none;
+}
+
+#navbar li{
+	display: inline;
+}
+
+#navbar a{
+	color: #fff;
+	text-decoration:none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+#showcase {
+	background-image: url('../images/arkaplan.jpg');
+	background-position: center right;
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align:center;
+
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#showcase h1{
+	color: #fff;
+	font-size:50px;
+	line-height: 1.6em;
+	padding-top: 30px;
+}
+
+#main{
+	float:left;
+	width: 65%;
+	padding: 0 30px;
+	box-sizing: border-box;
+	font-family:Tahoma;
+
+	background-color:#333;
+	color:#fff;
+
+	border-width:3px;
+	border-bottom-width:10px;
+	border: 5px transparent;
+	padding:20px;
+	margin-top:20px;
+	margin:20px 0;
+}
+
+#main h1{
+	font-family:Tahoma;
+	font-weight:800;
+	font-style:italic;
+	text-decoration:underline;
+	text-transform:uppercase;
+	letter-spacing:0.2em;
+	word-spacing:1em;
+}
+
+#sidebar{
+	float:right;
+	width: 30%;
+	background-color: #333;
+	color:#fff;
+	box-sizing: border-box;
+	border:3px;
+	padding:20px;
+	margin:20px 0;
+}
+
+.box-1 h1{
+	font-weight:150;
+	text-decoration:underline;
+	text-transform:uppercase;
+	letter-spacing:0.1em;
+	word-spacing:0.1em;
+}
+
+.box-2 h1{
+	font-weight:150;
+	text-decoration:underline;
+	text-transform:uppercase;
+	letter-spacing:0.1em;
+	word-spacing:0.1em;
+}
+
+.box-3 h1{
+	font-weight:150;
+	text-decoration:underline;
+	text-transform:uppercase;
+	letter-spacing:0.1em;
+	word-spacing:0.1em;
+}
+
+.my-form {
+	padding: 20px;
+}
+
+.my-form .form-group{
+	padding-bottom: 15px;
+}
+
+.my-form label{
+	display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+	padding: 8px;
+	width: 30%;
+}
+
+#main-footer{
+	background-color: #333;
+	color:#fff;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+
+@media(max-width: 600px){
+	#main{
+		width: 100%;
+		float: none;
+	}
+
+	#sidebar{
+		width:100%;
+		float: none; 
+	}
+}
