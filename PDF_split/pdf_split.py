@@ -10,5 +10,5 @@ for page_num in pages:
 with open("./Desktop/Lessons/PDF_split/Tiny_Python02.pdf", "wb") as output_stream:
     output.write(output_stream)
     output_stream.close()
-    print(f"yeni pdf dosyasi {output_stream.name} olusturuldu")
+    print(f"yeni pdf dosyasi {output_stream.name} olusturulduu")
 
