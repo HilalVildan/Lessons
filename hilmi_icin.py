@@ -1,2 +1,2 @@
 from text_to_speech import speak
-speak("Evde hic su kalmamis gelirken su alir misin askim benim", "tr", save=True, file="hilmi_icin.mp3", speak=True)
+speak("Askim sonunda sorunu cözdüm artik sesi duyabiliyoruz asiiirii mutluyum hahahahahhaha sana bunu haber vermek icin aradim cok heyacanliyim", "tr", save=True, file="merhaba.mp3", speak=True)
